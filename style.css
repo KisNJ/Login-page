@@ -17,7 +17,9 @@ body,html{
 a:link {
     color:  var(--light-border-purple);
   }
-  
+input:invalid{
+    border:1px solid red;
+}
   a:visited {
     color:var(--strong-border-purple);
   }
